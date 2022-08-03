@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Upload metadata on IPFS</title>
+        <title>Applore Assignment Aditya</title>
         <meta
           name="description"
           content="Create and Upload metadata to IPFS in just a click"
