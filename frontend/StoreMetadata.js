@@ -1,7 +1,7 @@
 import {
     NFTStorage
 } from "nft.storage";
-import { NFT_STORAGE_API_KEY } from "./../constants/constants.js";
+import { NFT_STORAGE_API_KEY } from "./constants/constants.js";
 
 
 export const StoreMetadata = async (image, Name, Description, Price) => {

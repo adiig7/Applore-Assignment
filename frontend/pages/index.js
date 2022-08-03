@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
-import { StoreMetadata } from "./StoreMetadata";
+import { StoreMetadata } from './../StoreMetadata';
 import { useSigner, useProvider, useContract, useAccount } from "wagmi";
 import { abi } from "./../constants/constants";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
